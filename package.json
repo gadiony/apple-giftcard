@@ -1,0 +1,24 @@
+{
+  "name": "apple-gift-card-real-checker",
+  "version": "1.0.0",
+  "description": "真实的Apple礼品卡批量查询系统 - 连接Apple官方API",
+  "main": "apple_gift_card_checker.js",
+  "scripts": {
+    "check": "node csv_processor.js",
+    "test": "node csv_processor.js sample_cards.csv"
+  },
+  "keywords": [
+    "apple",
+    "gift-card",
+    "batch",
+    "checker",
+    "balance",
+    "real-api",
+    "礼品卡"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
